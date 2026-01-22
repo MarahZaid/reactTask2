@@ -1,0 +1,67 @@
+.card{
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.imageBox{
+    height: 220px;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageBox img{
+    max-height: 90%;
+    max-width: 90%;
+    object-fit: contain;
+}
+
+.content{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.4;
+}
+
+.category{
+    font-size: 13px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+}
+
+.rating{
+    font-size: 14px;
+    color: #f39c12;
+    font-weight: 600;
+}
