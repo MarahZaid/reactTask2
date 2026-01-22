@@ -1,17 +1,14 @@
-import { useState } from 'react'
+import { RouterProvider } from 'react-router-dom'
+import router from './router'
 import Navbar from './components/navbar/Navbar'
-import Products from './components/products/Products'
-import Footer from './components/footer/Footer'
-
 
 export default function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <Navbar />
-    <Products />
-    <Footer />
+    
+    <RouterProvider router = {router} />
       
     </>
   )
